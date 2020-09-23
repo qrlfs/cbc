@@ -25,7 +25,7 @@ $(document).ready(function() {
   $("#qrl-footer *:contains('|')").each(function() {    
     $(this).html($(this).html().replace(/\|/g, ""));
   });
-  $("a[href*='.ffbf.com']").addClass("bypass-bump");
+  $("a[href*='.cbcnationalbankmortgage.com']").addClass("bypass-bump");
   $("a[href$='security-privacy']").attr("href", "https://www.cbcnationalbankmortgage.com/privacy-and-security/");
   // redirects privacy_statement to https://www.cbcnationalbankmortgage.com/privacy-and-security/
   if ($(".privacy_statement_redirect").length) {
