@@ -2,7 +2,7 @@
 $(document).ready(function() {
   // configure login
   $("#login_box form input").attr("onfocus", "activate_login();")  
-  $("#login_box button[type='submit']").after("<a href='ForgotPassword' class='pw_help glyphicon glyphicon-question-sign'></a>");
+  $("#login_box button[type='submit']").after("<a href='ForgotPassword' class='pw_help fa fa-question-circle'></a>");
   $("#login_box button[type='submit']").html("<i class='fa fa-lock' aria-hidden='true'></i>Login");
   if ($(".hide-login").length) {
     $("#login_box").addClass("invis");
@@ -12,6 +12,8 @@ $(document).ready(function() {
     $("ul#mynav").addClass("invis");
     $("nav.navbar>.container>.navbar-header").addClass("invis");
   };
+  // replace 'home' glyphicon with fontawesome
+  $(".glyphicons.glyphicons-home").removeClass("glyphicons glyphicons-home").addClass("fa fa-home");
   // configure contact form
   if ($(".contact-form").length) {
     $(".panel>.panel-body>form").attr("id", "qrl-contact-form");
