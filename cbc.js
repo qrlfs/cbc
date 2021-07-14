@@ -1,3 +1,6 @@
+// add style resources
+$('head').append('<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,600italic" rel="stylesheet" type="text/css">');
+$('head').append('<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">'); 
 // (document).ready() runs when the page has loaded
 $(document).ready(function() {
   // configure login
